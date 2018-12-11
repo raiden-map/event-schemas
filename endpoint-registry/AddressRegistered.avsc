@@ -4,24 +4,16 @@
     "name": "AddressRegistered",
     "fields": [
         {
+            "name": "metadata",
+            "type": "io.raidenmap.event.Metadata"
+        },
+        {
             "name": "ethAddress",
             "type": "string"
         },
         {
             "name": "endpointAddress",
             "type": "string"
-        },
-        {
-            "name": "blockNumber",
-            "type": "long"
-        },
-        {
-            "name": "blockTimestamp",
-            "type": "long"
-        },
-        {
-            "name": "eventTimestamp",
-            "type": "long"
         }
     ]
 }
