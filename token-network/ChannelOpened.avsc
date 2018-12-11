@@ -1,0 +1,19 @@
+{
+    "namespace": "event.Channel",
+    "type": "record",
+    "name": "ChannelOpened",
+    "fields": [
+        {
+            "name": "ChannelEvent",
+            "type": "io.raidenmap.event.channel"
+        },
+        {
+            "name": "participant1",
+            "type": "string"
+        },
+        {
+            "name": "participant2",
+            "type": "string"
+        }
+    ]
+}

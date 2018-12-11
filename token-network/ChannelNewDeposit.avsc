@@ -1,0 +1,19 @@
+{
+    "namespace": "io.raidenmap.event.channel",
+    "type": "record",
+    "name": "ChannelNewDeposit",
+    "fields": [
+        {
+            "name": "ChannelEvent",
+            "type": "io.raidenmap.event.channel.ChannelEvent"
+        },
+        {
+            "name": "participant",
+            "type": "string"
+        },
+        {
+            "name": "value",
+            "type": "int"
+        }
+    ]
+}
