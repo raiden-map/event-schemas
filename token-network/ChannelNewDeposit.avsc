@@ -4,7 +4,7 @@
     "name": "ChannelNewDeposit",
     "fields": [
         {
-            "name": "ChannelEvent",
+            "name": "channelEvent",
             "type": "io.raidenmap.event.channel.ChannelEvent"
         },
         {
@@ -12,8 +12,8 @@
             "type": "string"
         },
         {
-            "name": "value",
-            "type": "int"
+            "name": "totalDeposit",
+            "type": "long"
         }
     ]
 }

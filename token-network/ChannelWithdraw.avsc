@@ -4,15 +4,15 @@
     "name": "ChannelWithdraw",
     "fields": [
         {
-            "name": "ChannelEvent",
-            "type": "event.Channel.ChannelEvent"
+            "name": "channelEvent",
+            "type": "io.raidenmap.event.channel.ChannelEvent"
         },
         {
             "name": "participant",
             "type": "long"
         },
         {
-            "name": "value",
+            "name": "total_withdraw",
             "type": "int"
         }
     ]

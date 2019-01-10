@@ -4,7 +4,7 @@
     "name": "ChannelClosed",
     "fields": [
         {
-            "name": "ChannelEvent",
+            "name": "channelEvent",
             "type": "io.raidenmap.event.channel.ChannelEvent"
         },
         {
