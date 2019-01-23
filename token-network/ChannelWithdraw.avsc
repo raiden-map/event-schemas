@@ -12,7 +12,7 @@
             "type": "long"
         },
         {
-            "name": "total_withdraw",
+            "name": "totalWithdraw",
             "type": "int"
         }
     ]

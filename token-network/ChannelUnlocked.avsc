@@ -12,7 +12,11 @@
             "type": "string"
         },
         {
-            "name": "unlocked_amount",
+            "name": "unlockedAmount",
+            "type": "int"
+        },
+        {
+            "name": "returnedTokens",
             "type": "int"
         }
     ]

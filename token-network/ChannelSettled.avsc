@@ -8,11 +8,11 @@
             "type": "io.raidenmap.event.channel.ChannelEvent"
         },
         {
-            "name": "participant1_amount",
+            "name": "participant1Amount",
             "type": "long"
         },
         {
-            "name": "participant2_amount",
+            "name": "participant2Amount",
             "type": "long"
         }
     ]
