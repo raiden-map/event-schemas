@@ -1,0 +1,72 @@
+{
+    "name": "TokenNetworkSnapshot",
+    "type": "record",
+    "namespace": "io.raidenmap.statecacher",
+    "fields": [
+        {
+            "name": "tokenNetworkAddress",
+            "type": "string"
+        },
+        {
+            "name": "tokenNetworkDeltas",
+            "type": {
+                "type": "array",
+                "items": "io.raidenmap.statecacher.TokenNetworkDelta"
+            }
+        },
+        {
+            "name": "creationBlockNumber",
+            "type": "long"
+        },
+        {
+            "name": "creationTimestamp",
+            "type": "long"
+        },
+        {
+            "name": "stateBlockNumber",
+            "type": "long"
+        },
+        {
+            "name": "stateTimestamp",
+            "type": "long"
+        },
+        {
+            "name": "token",
+            "type": "io.raidenmap.statecacher.Token"
+        },
+        {
+            "name": "avgChannelDeposit",
+            "type": "string"
+        },
+        {
+            "name": "totalDeposit",
+            "type": "string"
+        },
+        {
+            "name": "users",
+            "type": "int"
+        },
+        {
+            "name": "blockNumber",
+            "type": "long"  
+        },
+        {
+            "name": "channels",
+            "type": {
+                "type": "map",
+                "values": "io.raidenmap.statecacher.Channel"
+            }
+        },
+        {
+            "name": "endpoints",
+            "type": {
+                "type": "array",
+                "items": "io.raidenmap.Endpoint"
+            }
+        },
+        {
+            "name": "twitter",
+            "type": "string"
+        }
+    ]   
+}

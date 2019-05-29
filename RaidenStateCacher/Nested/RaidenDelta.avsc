@@ -1,0 +1,38 @@
+{
+    "namespace": "io.raidenmap.statecacher",
+    "type": "record",
+    "name": "RaidenDelta",
+    "fields": [
+        {
+            "name": "tokenNetworksCount",
+            "type": "int"
+        },
+        {
+            "name": "userCount",
+            "type": "int"
+        },
+        {
+            "name": "timestamp",
+            "type": "long"
+        },
+        {
+            "name": "blockNumber",
+            "type": "long"
+        },
+        {
+            "name": "btcValue",
+            "type": "float"
+        },
+        {
+            "name": "ethValue",
+            "type": "float"
+        },
+        {
+            "name": "tokenNetworksChanges",
+            "type": {
+                "type": "map",
+                "values": "io.raidenmap.statecacher.TokenNetworkDelta"
+            }
+        }
+    ]
+}
