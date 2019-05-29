@@ -1,0 +1,58 @@
+{
+    "name": "TokenNetworkDelta",
+    "type": "record",
+    "namespace": "io.raidenmap.statecacher",
+    "fields": [
+        {
+            "name": "token",
+            "type": "io.raidenmap.statecacher.Token"
+        },
+        {
+            "name": "modifiedChannels",
+            "type": {
+                "type": "map",
+                "values": "io.raidenmap.statecacher.Channel"
+            }
+        },
+        {
+            "name": "tokenNetworkAddress",
+            "type": "string"
+        },
+        {
+            "name": "timestamp",
+            "type": "long"
+        },
+        {
+            "name": "channelsCount",
+            "type": "int"
+        },
+        {
+            "name": "openChannels",
+            "type": "int"
+        },
+        {
+            "name": "closedChannels",
+            "type": "int"
+        },
+        {
+            "name": "settledChannels",
+            "type": "int"
+        },
+        {
+            "name": "avgChannelDeposit",
+            "type": "string"
+        },
+        {
+            "name": "totalDeposit",
+            "type": "string"
+        },
+        {
+            "name": "users",
+            "type": "int"
+        },
+        {
+            "name": "blockNumber",
+            "type": "long"
+        }
+    ]
+}
